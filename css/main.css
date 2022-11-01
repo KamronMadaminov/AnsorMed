@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+}
+.sitenav-list {
+    width: 497px;
+    height: 21px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.sitenav-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-right: 32px;
+}  
+.sitenav-item-link {
+    text-decoration: none;
+    color: #000;
+}
+.sitenav-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    padding: 12px 24px;
+    width: 237px;
+    height: 47px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px; 
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.site-hero {
+    background-color: #0EB4C1;
+}
+
+.site-hero-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.site-hero-block {
+    width: 600px;
+    height: 293px;
+}
+
+.site-hero-title {
+    width: 600px;
+    height: 86px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.site-hero-des {
+    width: 440px;
+    height: 108px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.site-hero-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 237px;
+    height: 47px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px; 
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.services-title {
+    width: 133px;
+    height: 43px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    margin-left: 320px;
+}
+
+.services-block {
+    width: 800px;
+    height: 1500px;
+    margin: 0 auto;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+    padding: 12px 24px;
+    width: 237px;
+    height: 47px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px; 
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.about-end {
+    background-color: #0EB4C1;
+    height: 200px;
+}
+
+.about-end-title {
+    width: 450px;
+    height: 40px;
+    margin-left: 360px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.about-end-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about-end-links {
+    margin-left: 300px;
+}
+
+.about-end-link {
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 24px;
+    width: 237px;
+    height: 47px;
+    background: #0EB4C1;
+    border: 2px solid #fff;
+    border-radius: 8px; 
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.end {
+    background-color: #222;
+}
+
+.end-box {
+    display: flex;
+}
+
+.end-block {
+    margin-left: 500px;
+}
+
+.end-list {
+    list-style: none;
+    display: flex;
+}
+
+.end-item {
+    margin-right: 32px;
+}
+
+.end-link {
+    text-decoration: none;
+    color: #fff;
+    
+}
